@@ -7,7 +7,7 @@
   </head>
 
   <body>
-    <header>
+    <header class="main-header">
       <h1>📘 The Code Magazine</h1>
 
       <nav>
@@ -29,7 +29,9 @@
           height="50"
         />
 
-        <p>Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
+        <p id="author">
+          Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027
+        </p>
 
         <img
           src="images/post-img.jpg"
@@ -99,26 +101,28 @@
     </article>
 
     <aside>
-      <h5>RELATED posts</h5>
-      <ul>
+      <h4>RELATED posts</h4>
+      <ul class="related">
         <li>
           <img src="images/related-1.jpg" height="75" width="75" />
           <a href="#"> How to learn Web Development</a>
-          <p>By Jonas Schemedtmann</p>
+          <p class="related-author">By Jonas Schemedtmann</p>
         </li>
         <li>
           <img src="images/related-2.jpg" height="75" width="75" />
           <a href="#">The Unknown Powers of CSS</a>
-          <p>By Jim Dillon</p>
+          <p class="related-author">By Jim Dillon</p>
         </li>
         <li>
           <img src="images/related-3.jpg" height="75" width="75" />
           <a href="#"> Why JavaScript is Awesome</a>
-          <p>By Matlida</p>
+          <p class="related-author">By Matlida</p>
         </li>
       </ul>
     </aside>
 
-    <footer>Copyright &copy; 2027 by The Code Magazine</footer>
+    <footer id="copyright">
+      <p>Copyright &copy; 2027 by The Code Magazine</p>
+    </footer>
   </body>
 </html>
